@@ -1,0 +1,75 @@
+body { 
+    background-color: whitesmoke;
+    color: red;
+    font-family: Comic Sans MS, Impact, sans-serif;
+    margin-bottom: 50px;
+}
+
+.black-border {
+    border: 5px solid black;
+}
+
+#green-background {
+    background-color: green;
+}
+
+nav ul li {
+    display: block;
+    padding: 0px 50px;
+}
+
+p {
+    background-color: cyan;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #0088FF;
+}
+
+h2 {
+    font-size: 24px;
+    background-color: salmon;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+ul.black-border {
+    width: 200px;
+    color: purple
+}
+
+main, header, article, section, footer {
+    border: 3px solid mediumseagreen;
+    border-radius: 20px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding: 10px 20px;
+}
+
+footer {
+    margin:auto;
+    width: 30%;
+    min-width: 100px;
+    text-align: center;
+}
+
+/* hieronder volgt de styling voor desktops, middels media queries */
+
+@media (min-width: 1024px) {
+    body{
+        background-color: white;
+        color: black;
+        font-size: 0.8rem;
+        line-height: 1.25rem;
+    } 
+    nav ul li {
+        display: inline;
+    }
+}
